@@ -1,9 +1,8 @@
-var button=document.querySelector("#btn-translate");
-console.log("Button "+button);
+var button_translate=document.querySelector("#btn-translate");
+
 var input=null;
-button.addEventListener("click", function clickEventHandler() {
-    console.log("Clicked");
-    console.log("User Input "+input);
+button_translate.addEventListener("click", function clickEventHandler() {
+    output.innerText=input+"Heloow";
   });
 
   document.getElementById('user_input').addEventListener('input', function() {
@@ -11,3 +10,6 @@ button.addEventListener("click", function clickEventHandler() {
     document.getElementById('user_input').placeholder = input;
   
   });
+
+  var output=document.querySelector("#output");
+  output.innerText="Simrin";
