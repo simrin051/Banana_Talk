@@ -1,0 +1,67 @@
+
+body{
+    margin:0px;
+    
+}
+.header
+{
+   
+    background-color: #ffd314;    
+    width: 100%;
+    margin: 0 !important; 
+    height: 100px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    vertical-align:middle;
+    display: inline-block ;
+    margin: auto;
+ 
+}
+textarea
+{
+    width: 70vh;
+    display: block;
+    margin: 1rem; 
+    height: 20vh;
+    margin:auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+
+}
+p{
+    text-align: center;
+}
+#btn-translate
+{
+    margin:auto;
+    display: block;
+    background-color:#ffd314;
+    background-size: 150%;
+    height: 30px;
+    border-color:black 5px;
+   
+}
+
+.btn-container{
+   text-align:center;
+   
+}
+footer{
+    text-align:center;
+    background-color: #ffd314;
+    padding:1rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 10px;
+    margin-top: 4rem;
+}
+.footer-content{
+    font-size: 20px;
+    max-height: 2rem;
+    text-align: center;
+    width: 60rem;
+    margin:auto;
+   
+}
