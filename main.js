@@ -1,7 +1,7 @@
 var button_translate=document.querySelector("#btn-translate");
 
-var input=null;
-var serverURL= "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var input=null; 
+var serverURL= "https://api.funtranslations.com/translate/minion.json";
 
 
   document.getElementById('user_input').addEventListener('input', function() {
